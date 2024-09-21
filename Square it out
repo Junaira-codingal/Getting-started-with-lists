@@ -1,0 +1,13 @@
+print("\033c")
+def sq(l):
+    square = []
+    for i in l:
+        square.append(i*i)
+        
+    return square
+    
+li = [4, 5, 7, 1, 3, 9, 8, 6, 10, 2]
+print(f"Original list = {li}")
+res = sq(li)
+
+print(res)
